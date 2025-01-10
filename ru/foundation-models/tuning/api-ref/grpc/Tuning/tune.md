@@ -155,7 +155,7 @@ sourcePath: en/_api-ref-grpc/ai/tuning/v1/tuning/api-ref/grpc/Tuning/tune.md
 ||Field | Description ||
 || base_model_uri | **string**
 
-Required field. Format like a gpt://{folder_id}/yandex-gpt/latest ||
+Required field. Format like a gpt://{folder_id}/yandexgpt/latest ||
 || train_datasets[] | **[WeightedDataset](#yandex.cloud.ai.tuning.v1.TuningRequest.WeightedDataset)** ||
 || validation_datasets[] | **[WeightedDataset](#yandex.cloud.ai.tuning.v1.TuningRequest.WeightedDataset)** ||
 || text_to_text_completion | **[TextToTextCompletionTuningParams](#yandex.cloud.ai.tuning.v1.TextToTextCompletionTuningParams)**
